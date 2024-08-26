@@ -29,14 +29,12 @@ export const Socials = [
     uri: "https://www.linkedin.com/in/siyajoshi/",
     color: "#0072b1",
   },
-  
   {
     id: `email-${Date.now()}`,
     Icon: FaEnvelope,
     uri: "mailto:siyaj52@gmail.com",
     color: "#0072b1",
   },
-  
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
