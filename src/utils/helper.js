@@ -5,8 +5,7 @@ import {
   FaHouse,
   FaLinkedinIn,
   FaRenren,
-  FaUser,
-  
+  FaUser
 } from "react-icons/fa6";
 import {
   Dna,
@@ -28,6 +27,13 @@ export const Socials = [
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
     uri: "https://www.linkedin.com/in/siyajoshi/",
+    color: "#0072b1",
+  },
+  
+  {
+    id: `email-${Date.now()}`,
+    Icon: FaEnvelope,
+    uri: "mailto:siyaj52@gmail.com",
     color: "#0072b1",
   },
   
