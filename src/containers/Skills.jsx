@@ -41,13 +41,26 @@ const Skills = () => {
       <p className="text-transparent bg-clip-text bg-gradient-to-r text-white">
          💼 Work Experience </p>
         <p className="text-texlight text-base tracking-wide text-justify">
-          Royal Bank of Canada, Longview Systems </p>
+        <p><span className="text-white"> Cybersecurity Analyst - IAM Strategy </span> | RBC</p>
+        <p><span className="text-white"> Jr. Systems Consultant  </span> | Longview Systems </p> 
+        <p><span className="text-white"> Technical Systems Analyst  </span> | RBC</p> 
+        </p>
+      
+        <p className="text-transparent bg-clip-text bg-gradient-to-r text-white">
+         📍 Extracurricular </p>
+        <p className="text-texlight text-base tracking-wide text-justify">
+        <p><span className="text-white"> Computer Science Director </span> | Toronto Metropolitan University</p>
+        <p><span className="text-white"> Networking - Women of Color Club </span> | Personal Project </p> 
+        <p><span className="text-white"> Student Tech Lab Mentor  </span> | RBC</p> 
+        <p><span className="text-white"> Code Camp Facilitor  </span> | RBC</p> 
+        </p>
 
       <p className="text-transparent bg-clip-text bg-gradient-to-r text-white"
           >🏅 Certifications </p>
         <p className="text-texlight text-base tracking-wide text-justify">
-          AZ-900 (Azure Fundamentals) 
-          SC-900 (Security, Compliance, and Identity Fundamentals)</p>
+        <p><span className="text-white"> AZ-900</span> (Azure Fundamentals)</p>
+        <p><span className="text-white"> SC-900</span> (Security, Compliance, and Identity Fundamentals)</p>
+        </p>
         </div> 
 
         {/* image section */}

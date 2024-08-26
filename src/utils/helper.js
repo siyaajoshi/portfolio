@@ -13,7 +13,14 @@ import {
   Efinancer,
   Digigirlz,
   Website,
-  Cyber
+  Cyber,
+  cisco,
+  panel,
+  microsoft,
+  siberX,
+  rbc,
+  bruce,
+  tanmay
 } from "../assets";
 
 export const Socials = [
@@ -87,13 +94,48 @@ export const ProjectsData = [
 
 export const EventsData = [
   {
+    id: `panel-${Date.now()}`,
+    name: "RBC Panelist",
+    imgSrc: panel,
+  },
+  {
     id: `Cyber-${Date.now()}`,
     name: "Cybersecurity Training and Work Integrated Learning Program",
     imgSrc: Cyber,
   },
   {
+    id: `GH-${Date.now()}`,
+    name: "Bruce Ross- Group Head of T&O",
+    imgSrc: bruce,
+  },
+  {
     id: `Digi-${Date.now()}`,
     name: "Digigirlz",
     imgSrc: Digigirlz,
+  },
+  {
+    id: `microsoft-${Date.now()}`,
+    name: "Microsoft Event",
+    imgSrc: microsoft,
+  },
+  {
+    id: `SiberX-${Date.now()}`,
+    name: "SiberX Event",
+    imgSrc: siberX,
+  },
+  {
+    id: `rbc-${Date.now()}`,
+    name: "Women in Tech - RBC",
+    imgSrc: rbc,
+  },
+  {
+    id: `cisco-${Date.now()}`,
+    name: "Cisco Event",
+    imgSrc: cisco,
+  },
+  {
+    id: `tanmay-${Date.now()}`,
+    name: "Tanmay Bakshi - Google Development Student Club",
+    imgSrc: tanmay,
   }
 ];
