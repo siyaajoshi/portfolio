@@ -48,8 +48,8 @@ const Home = () => {
     </div>
 
     {/* My Resume */}
-    <a href="https://drive.google.com/uc?export=download&id=1WCs76LoNW7Csn6Kf-9r-sPb536-dgxAg"git push origin main
-       download="Siya_Joshi_Resume.pdf"
+    <a href="https://drive.google.com/uc?export=download&id=1WCs76LoNW7Csn6Kf-9r-sPb536-dgxAg"
+       download="Siya_Joshi_Resume.pdf">
        style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3" }}
        className="mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary">
       <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary">My Resume!
