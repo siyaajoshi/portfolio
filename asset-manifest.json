@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d86af6e5.css",
+    "main.js": "/portfolio/static/js/main.741af7b9.js",
+    "static/media/bruce.jpeg": "/portfolio/static/media/bruce.a02811281b8d3432e50d.jpeg",
+    "static/media/SiberX.jpeg": "/portfolio/static/media/SiberX.6cf49cebf379cdae2d78.jpeg",
+    "static/media/rbc.JPG": "/portfolio/static/media/rbc.c966850f1d72567d0a5b.JPG",
+    "static/media/microsoft.jpeg": "/portfolio/static/media/microsoft.90449704e9a9b478f9f5.jpeg",
+    "static/media/tanmay.jpeg": "/portfolio/static/media/tanmay.95ce42ec5c94988dc953.jpeg",
+    "static/media/cisco.jpeg": "/portfolio/static/media/cisco.a52fa0b7b1a79985b3ab.jpeg",
+    "static/media/about.png": "/portfolio/static/media/about.24ea4efcff649aa13c09.png",
+    "static/media/DIGIGIRLZ.png": "/portfolio/static/media/DIGIGIRLZ.d327bc99fd3a3b32e805.png",
+    "static/media/WEBSITE.png": "/portfolio/static/media/WEBSITE.428f2b8662cde17fa5b2.png",
+    "static/media/EFINANCER.png": "/portfolio/static/media/EFINANCER.80d9a81c7d37b4f6f446.png",
+    "static/media/Siya.png": "/portfolio/static/media/Siya.7f64272396f8bc1e08a0.png",
+    "static/media/panel.JPG": "/portfolio/static/media/panel.e4096966b71f2b8b49e0.JPG",
+    "static/media/Cyber.JPG": "/portfolio/static/media/Cyber.de521a9ef09350b7aeff.JPG",
+    "static/media/DNA.png": "/portfolio/static/media/DNA.40486b2ecd2962d2c8b4.png",
+    "index.html": "/portfolio/index.html",
+    "main.d86af6e5.css.map": "/portfolio/static/css/main.d86af6e5.css.map",
+    "main.741af7b9.js.map": "/portfolio/static/js/main.741af7b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d86af6e5.css",
+    "static/js/main.741af7b9.js"
+  ]
+}
