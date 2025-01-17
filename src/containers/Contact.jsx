@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -29,12 +29,12 @@ const Contact = () => {
       <div className="w-full flex items-center justify-center py-24">
         <motion.div
           initial={{ opacity: 0, width: 0 }}
-          animate={{ opacity: 1, width: 200 }}
+          animate={{ opacity: 1, width: "100%" }}
           exit={{ opacity: 0, width: 0 }}
           transition={{ delay: 0.4 }}
-          className="flex items-center justify-around w-52"
+          className="flex items-center justify-center w-full max-w-md text-center"
         >
-          <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary text-2xl">
+          <p className="text-white text-2xl">
             --- Contact Me ---
           </p>
         </motion.div>
@@ -44,16 +44,17 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
         <AnimatePresence>
           <ContactCard
-            title="Email Me"
-            description="Reach out to me directly through email."
-            icon={<FaEnvelope className="text-3xl text-white hover:text-primary" />}
+            title="Email Me!"
+            description="Please reach out to me directly through email."
+            icon={<FaEnvelope className="text-3xl text-black hover:text-primary" />}
             href="mailto:siyaj52@gmail.com"
             isHovered={isHovered}
             setIsHovered={setIsHovered}
           />
           <ContactCard
             title="LinkedIn Profile"
-            description="Connect with me on LinkedIn."
+            description="Connect with me on LinkedIn!"
+            icon={<FaLinkedin className="text-3xl text-black hover:text-primary" />}
             href="https://ca.linkedin.com/in/siyajoshi?trk=profile-badge"
             isHovered={isHovered}
             setIsHovered={setIsHovered}
@@ -67,26 +68,26 @@ const Contact = () => {
 const ContactCard = ({ title, description, icon, href, isHovered, setIsHovered }) => {
   return (
     <motion.div
-      className="overflow-hidden cursor-pointer relative rounded-md bg-gradient-to-r from-primary to-secondary p-4 shadow-lg"
+      className="overflow-hidden cursor-pointer relative rounded-md bg-white p-4 shadow-lg"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="flex items-center gap-4">
         <div>{icon}</div>
         <div>
-          <h3 className="text-xl text-white">{title}</h3>
-          <p className="text-sm text-texlight">{description}</p>
+          <h3 className="text-xl text-black">{title}</h3>
+          <p className="text-sm text-gray-700">{description}</p>
         </div>
       </div>
       <AnimatePresence>
         {isHovered && (
           <motion.div
-            className="absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2"
+            className="absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.1)] flex items-center justify-center flex-col gap-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <a href={href} className="text-lg text-white hover:underline">
+            <a href={href} className="text-lg text-black hover:underline">
               Click Here
             </a>
           </motion.div>
