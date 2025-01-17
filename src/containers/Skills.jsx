@@ -41,6 +41,7 @@ const Skills = () => {
       <p className="text-transparent bg-clip-text bg-gradient-to-r text-white">
          💼 Work Experience </p>
         <p className="text-texlight text-base tracking-wide text-justify">
+        <p><span className="text-white"> Senior Cybersecurity Analyst - IAM Onboarding </span> | RBC</p>
         <p><span className="text-white"> Cybersecurity Analyst - IAM Strategy </span> | RBC</p>
         <p><span className="text-white"> Jr. Systems Consultant  </span> | Longview Systems </p> 
         <p><span className="text-white"> Technical Systems Analyst  </span> | RBC</p> 
@@ -77,8 +78,8 @@ const Skills = () => {
         color={"#FF3F3F"} />
         
         <SkillCard 
-        skill={"CSS"} 
-        percentage={"80%"} 
+        skill={"Entra Id"} 
+        percentage={"90%"} 
         color={"#FFFF00"}
         move={true} />
 

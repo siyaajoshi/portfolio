@@ -1,4 +1,4 @@
-export { default as Siya } from "./img/siya.png";
+export { default as Siya } from "./img/Siya.png";
 export { default as about } from "./img/about.png";
 
 // projects
